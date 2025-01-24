@@ -86,6 +86,7 @@ void formatStr()
 			memset(tx_message, 0, sizeof(tx_message));
 			snprintf(tx_message, sizeof(tx_message), "%s is ready\r\n", name_2);
 			HAL_UART_Transmit(&huart3, (uint8_t *)tx_message, sizeof(tx_message), HAL_MAX_DELAY);
+			status = 2;
 		}
 		else if (strcmp(rx_msg_ex_coppy, "RXhpdCBQcm9ncmFtICEh") == 0)
 		{
@@ -98,8 +99,8 @@ void formatStr()
 		{
 			HAL_UART_Transmit(&huart3, (uint8_t *)rx_msg_ex_coppy, sizeof(rx_msg_ex_coppy), HAL_MAX_DELAY);
 			HAL_UART_Transmit(&huart3, newLine, sizeof(newLine), HAL_MAX_DELAY);
+			status = 2;
 		}
-		status = 2;
 	}
 }
 
@@ -195,7 +196,7 @@ int main(void)
 
 
 
-  while (1)
+  while (status != -1)
   {
     /* USER CODE END WHILE */
 
@@ -203,7 +204,11 @@ int main(void)
 
 	  if (status == 1) {
 		  formatStr();
-		  title_line();
+		  if (status != -1)
+		  {
+
+			  title_line();
+		  }
 	  }
 	  else if (status == 2) {
 
