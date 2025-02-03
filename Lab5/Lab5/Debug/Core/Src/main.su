@@ -1,0 +1,12 @@
+../Core/Src/main.c:91:7:ADC_to_Voltage	16	static
+../Core/Src/main.c:95:6:displayHEX	16	static
+../Core/Src/main.c:102:6:inputText	520	static
+../Core/Src/main.c:145:5:avrage_8	16	static
+../Core/Src/main.c:156:5:avrage_16	16	static
+../Core/Src/main.c:173:5:main	16	static
+../Core/Src/main.c:267:6:SystemClock_Config	88	static
+../Core/Src/main.c:309:13:MX_ADC1_Init	24	static
+../Core/Src/main.c:361:13:MX_USART3_UART_Init	8	static
+../Core/Src/main.c:396:13:MX_GPIO_Init	40	static
+../Core/Src/main.c:437:6:MPU_Config	24	static
+../Core/Src/main.c:468:6:Error_Handler	4	static,ignoring_inline_asm

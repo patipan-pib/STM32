@@ -1,0 +1,1430 @@
+02:02:33 **** Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_adc.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_adc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_adc.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_adc_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_adc_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_adc_ex.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_cortex.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_cortex.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma_ex.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_exti.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_exti.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_exti.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_gpio.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_gpio.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart_ex.o"
+arm-none-eabi-gcc -mcpu=cortex-m7 -g3 -DDEBUG -c -x assembler-with-cpp -MMD -MP -MF"Core/Startup/startup_stm32f767zitx.d" -MT"Core/Startup/startup_stm32f767zitx.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Startup/startup_stm32f767zitx.o" "../Core/Startup/startup_stm32f767zitx.s"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f7xx_hal_msp.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f7xx_hal_msp.d" -MT"Core/Src/stm32f7xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f7xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f7xx_it.d" -MT"Core/Src/stm32f7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f7xx_it.o"
+arm-none-eabi-gcc "../Core/Src/syscalls.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/syscalls.d" -MT"Core/Src/syscalls.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/syscalls.o"
+arm-none-eabi-gcc "../Core/Src/sysmem.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/sysmem.d" -MT"Core/Src/sysmem.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/sysmem.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f7xx.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f7xx.d" -MT"Core/Src/system_stm32f7xx.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f7xx.o"
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  17520	     12	   1892	  19424	   4be0	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+02:02:40 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17520	     12	   1892	  19424	   4be0	sp2.elf
+Finished building: default.size.stdout
+ 
+02:03:21 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17520	     12	   1892	  19424	   4be0	sp2.elf
+Finished building: default.size.stdout
+ 
+02:10:00 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17520	     12	   1892	  19424	   4be0	sp2.elf
+Finished building: default.size.stdout
+ 
+02:10:12 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17520	     12	   1892	  19424	   4be0	sp2.elf
+Finished building: default.size.stdout
+ 
+02:10:36 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17520	     12	   1892	  19424	   4be0	sp2.elf
+Finished building: default.size.stdout
+ 
+02:10:39 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17520	     12	   1892	  19424	   4be0	sp2.elf
+Finished building: default.size.stdout
+ 
+02:15:07 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f7xx_hal_msp.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f7xx_hal_msp.d" -MT"Core/Src/stm32f7xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f7xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f7xx_it.d" -MT"Core/Src/stm32f7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f7xx_it.o"
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  17684	     12	   1988	  19684	   4ce4	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+02:15:19 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17684	     12	   1988	  19684	   4ce4	sp2.elf
+Finished building: default.size.stdout
+ 
+02:16:18 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  17684	     12	   1988	  19684	   4ce4	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+02:16:29 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17684	     12	   1988	  19684	   4ce4	sp2.elf
+Finished building: default.size.stdout
+ 
+02:21:28 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:108:29: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  108 |   HAL_ADC_Start_DMA(&hadc1, adcValue, 4)
+      |                             ^~~~~~~~
+      |                             |
+      |                             uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f7xx_hal_conf.h:291,
+                 from C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_adc.h:631:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  631 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+../Core/Src/main.c:108:41: error: expected ';' before 'while'
+  108 |   HAL_ADC_Start_DMA(&hadc1, adcValue, 4)
+      |                                         ^
+      |                                         ;
+......
+  114 |   while (1)
+      |   ~~~~~                                  
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+02:21:40 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:108:29: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  108 |   HAL_ADC_Start_DMA(&hadc1, adcValue, 4);
+      |                             ^~~~~~~~
+      |                             |
+      |                             uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f7xx_hal_conf.h:291,
+                 from C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_adc.h:631:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  631 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  18372	     12	   1980	  20364	   4f8c	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+02:21:42 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18372	     12	   1980	  20364	   4f8c	sp2.elf
+Finished building: default.size.stdout
+ 
+02:21:53 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18372	     12	   1980	  20364	   4f8c	sp2.elf
+Finished building: default.size.stdout
+ 
+02:22:18 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18372	     12	   1980	  20364	   4f8c	sp2.elf
+Finished building: default.size.stdout
+ 
+02:22:23 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18372	     12	   1980	  20364	   4f8c	sp2.elf
+Finished building: default.size.stdout
+ 
+02:23:33 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:108:29: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  108 |   HAL_ADC_Start_DMA(&hadc1, adcValue, 4);
+      |                             ^~~~~~~~
+      |                             |
+      |                             uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f7xx_hal_conf.h:291,
+                 from C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_adc.h:631:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  631 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  17956	     12	   1980	  19948	   4dec	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+02:24:56 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:108:29: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  108 |   HAL_ADC_Start_DMA(&hadc1, adcValue, 4);
+      |                             ^~~~~~~~
+      |                             |
+      |                             uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f7xx_hal_conf.h:291,
+                 from C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_adc.h:631:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  631 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  17956	     12	   1980	  19948	   4dec	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+02:25:10 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17956	     12	   1980	  19948	   4dec	sp2.elf
+Finished building: default.size.stdout
+ 
+16:35:47 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_adc.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_adc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_adc.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_adc_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_adc_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_adc_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_adc_ex.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_cortex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_cortex.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_cortex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_cortex.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_dma_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_dma_ex.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_exti.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_exti.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_exti.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_exti.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_flash_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_flash_ex.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_gpio.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_gpio.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_gpio.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_gpio.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_i2c_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_i2c_ex.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_pwr_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_pwr_ex.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_rcc_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_rcc_ex.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart.o"
+arm-none-eabi-gcc "C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Src/stm32f7xx_hal_uart_ex.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart_ex.d" -MT"Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart_ex.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Drivers/STM32F7xx_HAL_Driver/stm32f7xx_hal_uart_ex.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f7xx_hal_msp.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f7xx_hal_msp.d" -MT"Core/Src/stm32f7xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f7xx_hal_msp.o"
+arm-none-eabi-gcc "../Core/Src/stm32f7xx_it.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f7xx_it.d" -MT"Core/Src/stm32f7xx_it.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f7xx_it.o"
+arm-none-eabi-gcc "../Core/Src/system_stm32f7xx.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/system_stm32f7xx.d" -MT"Core/Src/system_stm32f7xx.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/system_stm32f7xx.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:108:29: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  108 |   HAL_ADC_Start_DMA(&hadc1, adcValue, 4);
+      |                             ^~~~~~~~
+      |                             |
+      |                             uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f7xx_hal_conf.h:291,
+                 from C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_adc.h:631:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  631 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  17960	     12	   1980	  19952	   4df0	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+16:36:00 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17960	     12	   1980	  19952	   4df0	sp2.elf
+Finished building: default.size.stdout
+ 
+16:37:35 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:108:29: warning: passing argument 2 of 'HAL_ADC_Start_DMA' from incompatible pointer type [-Wincompatible-pointer-types]
+  108 |   HAL_ADC_Start_DMA(&hadc1, adcValue, 4);
+      |                             ^~~~~~~~
+      |                             |
+      |                             uint16_t * {aka short unsigned int *}
+In file included from ../Core/Inc/stm32f7xx_hal_conf.h:291,
+                 from C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal.h:29,
+                 from ../Core/Inc/main.h:30,
+                 from ../Core/Src/main.c:20:
+C:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/stm32f7xx_hal_adc.h:631:72: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'uint16_t *' {aka 'short unsigned int *'}
+  631 | HAL_StatusTypeDef HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
+      |                                                              ~~~~~~~~~~^~~~~
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  17960	     12	   1980	  19952	   4df0	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+16:37:51 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17960	     12	   1980	  19952	   4df0	sp2.elf
+Finished building: default.size.stdout
+ 
+16:40:13 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  17960	     12	   1988	  19960	   4df8	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+16:40:25 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  17960	     12	   1988	  19960	   4df8	sp2.elf
+Finished building: default.size.stdout
+ 
+17:03:29 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:109:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  109 |   printf("ADC Value");
+      |   ^~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:109:3: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  109 |   printf("ADC Value");
+      |   ^~~~~~
+../Core/Src/main.c:109:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  22112	    104	   2320	  24536	   5fd8	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+17:03:32 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22112	    104	   2320	  24536	   5fd8	sp2.elf
+Finished building: default.size.stdout
+ 
+17:03:54 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22112	    104	   2320	  24536	   5fd8	sp2.elf
+Finished building: default.size.stdout
+ 
+17:05:42 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22112	    104	   2320	  24536	   5fd8	sp2.elf
+Finished building: default.size.stdout
+ 
+17:10:57 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:70:9: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+   70 |         snprintf(tx_msg, sizeof(tx_msg), "test1");
+      |         ^~~~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:70:9: warning: incompatible implicit declaration of built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
+   70 |         snprintf(tx_msg, sizeof(tx_msg), "test1");
+      |         ^~~~~~~~
+../Core/Src/main.c:70:9: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../Core/Src/main.c: In function 'HAL_ADC_ConvHalfCpltCallback':
+../Core/Src/main.c:77:9: warning: incompatible implicit declaration of built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
+   77 |         snprintf(tx_msg, sizeof(tx_msg), "test2");
+      |         ^~~~~~~~
+../Core/Src/main.c:77:9: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:122:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  122 |   printf("ADC Value");
+      |   ^~~~~~
+../Core/Src/main.c:122:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+../Core/Src/main.c:122:3: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+../Core/Src/main.c:122:3: note: include '<stdio.h>' or provide a declaration of 'printf'
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  23164	    104	   2424	  25692	   645c	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+17:11:01 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23164	    104	   2424	  25692	   645c	sp2.elf
+Finished building: default.size.stdout
+ 
+17:11:12 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23164	    104	   2424	  25692	   645c	sp2.elf
+Finished building: default.size.stdout
+ 
+17:14:10 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23164	    104	   2424	  25692	   645c	sp2.elf
+Finished building: default.size.stdout
+ 
+17:26:06 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:70:9: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+   70 |         snprintf(tx_msg, sizeof(tx_msg), "test1");
+      |         ^~~~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:70:9: warning: incompatible implicit declaration of built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
+   70 |         snprintf(tx_msg, sizeof(tx_msg), "test1");
+      |         ^~~~~~~~
+../Core/Src/main.c:70:9: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../Core/Src/main.c: In function 'HAL_ADC_ConvHalfCpltCallback':
+../Core/Src/main.c:79:9: warning: incompatible implicit declaration of built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
+   79 |         snprintf(tx_msg, sizeof(tx_msg), "test2");
+      |         ^~~~~~~~
+../Core/Src/main.c:79:9: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  20832	     92	   2420	  23344	   5b30	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+17:26:11 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20832	     92	   2420	  23344	   5b30	sp2.elf
+Finished building: default.size.stdout
+ 
+17:26:36 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20832	     92	   2420	  23344	   5b30	sp2.elf
+Finished building: default.size.stdout
+ 
+17:27:50 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:70:9: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+   70 |         snprintf(tx_msg, sizeof(tx_msg), "test1");
+      |         ^~~~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:70:9: warning: incompatible implicit declaration of built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
+   70 |         snprintf(tx_msg, sizeof(tx_msg), "test1");
+      |         ^~~~~~~~
+../Core/Src/main.c:70:9: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../Core/Src/main.c: In function 'HAL_ADC_ConvHalfCpltCallback':
+../Core/Src/main.c:79:9: warning: incompatible implicit declaration of built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
+   79 |         snprintf(tx_msg, sizeof(tx_msg), "test2");
+      |         ^~~~~~~~
+../Core/Src/main.c:79:9: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  20832	     92	   2420	  23344	   5b30	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+17:28:13 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20832	     92	   2420	  23344	   5b30	sp2.elf
+Finished building: default.size.stdout
+ 
+17:30:19 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:70:9: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+   70 |         snprintf(tx_msg, sizeof(tx_msg), "test1");
+      |         ^~~~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:70:9: warning: incompatible implicit declaration of built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
+   70 |         snprintf(tx_msg, sizeof(tx_msg), "test1");
+      |         ^~~~~~~~
+../Core/Src/main.c:70:9: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../Core/Src/main.c: In function 'HAL_ADC_ConvHalfCpltCallback':
+../Core/Src/main.c:79:9: warning: incompatible implicit declaration of built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
+   79 |         snprintf(tx_msg, sizeof(tx_msg), "test2");
+      |         ^~~~~~~~
+../Core/Src/main.c:79:9: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  20832	     92	   2420	  23344	   5b30	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+17:30:33 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20832	     92	   2420	  23344	   5b30	sp2.elf
+Finished building: default.size.stdout
+ 
+17:30:45 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20832	     92	   2420	  23344	   5b30	sp2.elf
+Finished building: default.size.stdout
+ 
+17:50:28 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:71:9: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+   71 |         snprintf(tx_msg, sizeof(tx_msg), "test1");
+      |         ^~~~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:71:9: warning: incompatible implicit declaration of built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
+   71 |         snprintf(tx_msg, sizeof(tx_msg), "test1");
+      |         ^~~~~~~~
+../Core/Src/main.c:71:9: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../Core/Src/main.c: In function 'HAL_ADC_ConvHalfCpltCallback':
+../Core/Src/main.c:80:9: warning: incompatible implicit declaration of built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
+   80 |         snprintf(tx_msg, sizeof(tx_msg), "test2");
+      |         ^~~~~~~~
+../Core/Src/main.c:80:9: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../Core/Src/main.c: In function 'avrage_8':
+../Core/Src/main.c:87:16: warning: type defaults to 'int' in declaration of 'total' [-Wimplicit-int]
+   87 |         static total = 0;
+      |                ^~~~~
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  20952	     92	   2460	  23504	   5bd0	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+17:50:40 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20952	     92	   2460	  23504	   5bd0	sp2.elf
+Finished building: default.size.stdout
+ 
+17:50:43 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20952	     92	   2460	  23504	   5bd0	sp2.elf
+Finished building: default.size.stdout
+ 
+17:50:56 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20952	     92	   2460	  23504	   5bd0	sp2.elf
+Finished building: default.size.stdout
+ 
+17:52:59 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:71:9: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+   71 |         snprintf(tx_msg, sizeof(tx_msg), "test1");
+      |         ^~~~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:71:9: warning: incompatible implicit declaration of built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
+   71 |         snprintf(tx_msg, sizeof(tx_msg), "test1");
+      |         ^~~~~~~~
+../Core/Src/main.c:71:9: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../Core/Src/main.c: In function 'HAL_ADC_ConvHalfCpltCallback':
+../Core/Src/main.c:80:9: warning: incompatible implicit declaration of built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
+   80 |         snprintf(tx_msg, sizeof(tx_msg), "test2");
+      |         ^~~~~~~~
+../Core/Src/main.c:80:9: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../Core/Src/main.c: In function 'avrage_8':
+../Core/Src/main.c:87:16: warning: type defaults to 'int' in declaration of 'total' [-Wimplicit-int]
+   87 |         static total = 0;
+      |                ^~~~~
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  21256	     92	   2460	  23808	   5d00	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+17:53:12 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21256	     92	   2460	  23808	   5d00	sp2.elf
+Finished building: default.size.stdout
+ 
+17:54:18 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:71:9: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+   71 |         snprintf(tx_msg, sizeof(tx_msg), "test1");
+      |         ^~~~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:71:9: warning: incompatible implicit declaration of built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
+   71 |         snprintf(tx_msg, sizeof(tx_msg), "test1");
+      |         ^~~~~~~~
+../Core/Src/main.c:71:9: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../Core/Src/main.c: In function 'HAL_ADC_ConvHalfCpltCallback':
+../Core/Src/main.c:80:9: warning: incompatible implicit declaration of built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
+   80 |         snprintf(tx_msg, sizeof(tx_msg), "test2");
+      |         ^~~~~~~~
+../Core/Src/main.c:80:9: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../Core/Src/main.c: In function 'avrage_8':
+../Core/Src/main.c:87:16: warning: type defaults to 'int' in declaration of 'total' [-Wimplicit-int]
+   87 |         static total = 0;
+      |                ^~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:149:20: error: assignment to expression with array type
+  149 |           adcValue = HAL_ADC_GetValue(&hadc1);
+      |                    ^
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+17:57:34 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:72:9: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+   72 |         snprintf(tx_msg, sizeof(tx_msg), "test1");
+      |         ^~~~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:72:9: warning: incompatible implicit declaration of built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
+   72 |         snprintf(tx_msg, sizeof(tx_msg), "test1");
+      |         ^~~~~~~~
+../Core/Src/main.c:72:9: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../Core/Src/main.c: In function 'HAL_ADC_ConvHalfCpltCallback':
+../Core/Src/main.c:81:9: warning: incompatible implicit declaration of built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
+   81 |         snprintf(tx_msg, sizeof(tx_msg), "test2");
+      |         ^~~~~~~~
+../Core/Src/main.c:81:9: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../Core/Src/main.c: In function 'avrage_8':
+../Core/Src/main.c:88:16: warning: type defaults to 'int' in declaration of 'total' [-Wimplicit-int]
+   88 |         static total = 0;
+      |                ^~~~~
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  20832	     92	   2420	  23344	   5b30	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+17:58:30 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c:38:1: error: unknown type name 'bool'
+   38 | bool data_changed = false;
+      | ^~~~
+../Core/Src/main.c:21:1: note: 'bool' is defined in header '<stdbool.h>'; did you forget to '#include <stdbool.h>'?
+   20 | #include "main.h"
+  +++ |+#include <stdbool.h>
+   21 | 
+../Core/Src/main.c:38:21: error: 'false' undeclared here (not in a function)
+   38 | bool data_changed = false;
+      |                     ^~~~~
+../Core/Src/main.c:38:21: note: 'false' is defined in header '<stdbool.h>'; did you forget to '#include <stdbool.h>'?
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:77:9: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+   77 |         snprintf(tx_msg, sizeof(tx_msg), "test1");
+      |         ^~~~~~~~
+../Core/Src/main.c:21:1: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+   20 | #include "main.h"
+  +++ |+#include <stdio.h>
+   21 | 
+../Core/Src/main.c:77:9: warning: incompatible implicit declaration of built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
+   77 |         snprintf(tx_msg, sizeof(tx_msg), "test1");
+      |         ^~~~~~~~
+../Core/Src/main.c:77:9: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../Core/Src/main.c: In function 'HAL_ADC_ConvHalfCpltCallback':
+../Core/Src/main.c:86:9: warning: incompatible implicit declaration of built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
+   86 |         snprintf(tx_msg, sizeof(tx_msg), "test2");
+      |         ^~~~~~~~
+../Core/Src/main.c:86:9: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../Core/Src/main.c: In function 'avrage_8':
+../Core/Src/main.c:93:16: warning: type defaults to 'int' in declaration of 'total' [-Wimplicit-int]
+   93 |         static total = 0;
+      |                ^~~~~
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+17:58:39 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvCpltCallback':
+../Core/Src/main.c:77:9: warning: implicit declaration of function 'snprintf' [-Wimplicit-function-declaration]
+   77 |         snprintf(tx_msg, sizeof(tx_msg), "test1");
+      |         ^~~~~~~~
+../Core/Src/main.c:25:1: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+   24 | #include <stdbool.h>
+  +++ |+#include <stdio.h>
+   25 | /* USER CODE END Includes */
+../Core/Src/main.c:77:9: warning: incompatible implicit declaration of built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
+   77 |         snprintf(tx_msg, sizeof(tx_msg), "test1");
+      |         ^~~~~~~~
+../Core/Src/main.c:77:9: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../Core/Src/main.c: In function 'HAL_ADC_ConvHalfCpltCallback':
+../Core/Src/main.c:86:9: warning: incompatible implicit declaration of built-in function 'snprintf' [-Wbuiltin-declaration-mismatch]
+   86 |         snprintf(tx_msg, sizeof(tx_msg), "test2");
+      |         ^~~~~~~~
+../Core/Src/main.c:86:9: note: include '<stdio.h>' or provide a declaration of 'snprintf'
+../Core/Src/main.c: In function 'avrage_8':
+../Core/Src/main.c:93:16: warning: type defaults to 'int' in declaration of 'total' [-Wimplicit-int]
+   93 |         static total = 0;
+      |                ^~~~~
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  20832	     92	   2420	  23344	   5b30	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+18:00:48 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'process_ADC_data':
+../Core/Src/main.c:112:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  112 |         sprintf("ADC1: %lu, ADC2: %lu, ADC3: %lu, ADC4: %lu\n",
+      |         ^~~~~~~
+../Core/Src/main.c:25:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   24 | #include <stdbool.h>
+  +++ |+#include <stdio.h>
+   25 | /* USER CODE END Includes */
+../Core/Src/main.c:112:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  112 |         sprintf("ADC1: %lu, ADC2: %lu, ADC3: %lu, ADC4: %lu\n",
+      |         ^~~~~~~
+../Core/Src/main.c:112:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:113:22: warning: passing argument 2 of 'sprintf' makes pointer from integer without a cast [-Wint-conversion]
+  113 |                buffer[i], buffer[i+1], buffer[i+2], buffer[i+3]);
+      |                ~~~~~~^~~
+      |                      |
+      |                      uint32_t {aka long unsigned int}
+../Core/Src/main.c:113:22: note: expected 'const char *' but argument is of type 'uint32_t' {aka 'long unsigned int'}
+../Core/Src/main.c: In function 'avrage_8':
+../Core/Src/main.c:119:16: warning: type defaults to 'int' in declaration of 'total' [-Wimplicit-int]
+  119 |         static total = 0;
+      |                ^~~~~
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  21084	     92	   3364	  24540	   5fdc	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+18:01:09 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'process_ADC_data':
+../Core/Src/main.c:112:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  112 |         sprintf("ADC1: %lu, ADC2: %lu, ADC3: %lu, ADC4: %lu\n",
+      |         ^~~~~~~
+../Core/Src/main.c:25:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   24 | #include <stdbool.h>
+  +++ |+#include <stdio.h>
+   25 | /* USER CODE END Includes */
+../Core/Src/main.c:112:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  112 |         sprintf("ADC1: %lu, ADC2: %lu, ADC3: %lu, ADC4: %lu\n",
+      |         ^~~~~~~
+../Core/Src/main.c:112:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:113:22: warning: passing argument 2 of 'sprintf' makes pointer from integer without a cast [-Wint-conversion]
+  113 |                buffer[i], buffer[i+1], buffer[i+2], buffer[i+3]);
+      |                ~~~~~~^~~
+      |                      |
+      |                      uint32_t {aka long unsigned int}
+../Core/Src/main.c:113:22: note: expected 'const char *' but argument is of type 'uint32_t' {aka 'long unsigned int'}
+../Core/Src/main.c: In function 'avrage_8':
+../Core/Src/main.c:119:16: warning: type defaults to 'int' in declaration of 'total' [-Wimplicit-int]
+  119 |         static total = 0;
+      |                ^~~~~
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  21100	     92	   3348	  24540	   5fdc	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+18:01:13 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21100	     92	   3348	  24540	   5fdc	sp2.elf
+Finished building: default.size.stdout
+ 
+18:01:24 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21100	     92	   3348	  24540	   5fdc	sp2.elf
+Finished building: default.size.stdout
+ 
+18:09:47 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'process_ADC_data':
+../Core/Src/main.c:112:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  112 |         sprintf("ADC1: %lu, ADC2: %lu, ADC3: %lu, ADC4: %lu\n",
+      |         ^~~~~~~
+../Core/Src/main.c:25:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   24 | #include <stdbool.h>
+  +++ |+#include <stdio.h>
+   25 | /* USER CODE END Includes */
+../Core/Src/main.c:112:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  112 |         sprintf("ADC1: %lu, ADC2: %lu, ADC3: %lu, ADC4: %lu\n",
+      |         ^~~~~~~
+../Core/Src/main.c:112:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:113:22: warning: passing argument 2 of 'sprintf' makes pointer from integer without a cast [-Wint-conversion]
+  113 |                buffer[i], buffer[i+1], buffer[i+2], buffer[i+3]);
+      |                ~~~~~~^~~
+      |                      |
+      |                      uint32_t {aka long unsigned int}
+../Core/Src/main.c:113:22: note: expected 'const char *' but argument is of type 'uint32_t' {aka 'long unsigned int'}
+../Core/Src/main.c: In function 'avrage_8':
+../Core/Src/main.c:119:16: warning: type defaults to 'int' in declaration of 'total' [-Wimplicit-int]
+  119 |         static total = 0;
+      |                ^~~~~
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  21100	     92	   3348	  24540	   5fdc	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+18:10:03 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21100	     92	   3348	  24540	   5fdc	sp2.elf
+Finished building: default.size.stdout
+ 
+18:10:44 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'process_ADC_data':
+../Core/Src/main.c:112:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  112 |         sprintf("ADC1: %lu, ADC2: %lu, ADC3: %lu, ADC4: %lu\n",
+      |         ^~~~~~~
+../Core/Src/main.c:25:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   24 | #include <stdbool.h>
+  +++ |+#include <stdio.h>
+   25 | /* USER CODE END Includes */
+../Core/Src/main.c:112:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  112 |         sprintf("ADC1: %lu, ADC2: %lu, ADC3: %lu, ADC4: %lu\n",
+      |         ^~~~~~~
+../Core/Src/main.c:112:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:113:22: warning: passing argument 2 of 'sprintf' makes pointer from integer without a cast [-Wint-conversion]
+  113 |                buffer[i], buffer[i+1], buffer[i+2], buffer[i+3]);
+      |                ~~~~~~^~~
+      |                      |
+      |                      uint32_t {aka long unsigned int}
+../Core/Src/main.c:113:22: note: expected 'const char *' but argument is of type 'uint32_t' {aka 'long unsigned int'}
+../Core/Src/main.c: In function 'avrage_8':
+../Core/Src/main.c:119:16: warning: type defaults to 'int' in declaration of 'total' [-Wimplicit-int]
+  119 |         static total = 0;
+      |                ^~~~~
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  21104	     92	   3348	  24544	   5fe0	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+18:10:56 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21104	     92	   3348	  24544	   5fe0	sp2.elf
+Finished building: default.size.stdout
+ 
+18:12:58 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'process_ADC_data':
+../Core/Src/main.c:112:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  112 |         sprintf("ADC1: %lu, ADC2: %lu, ADC3: %lu, ADC4: %lu\n",
+      |         ^~~~~~~
+../Core/Src/main.c:25:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   24 | #include <stdbool.h>
+  +++ |+#include <stdio.h>
+   25 | /* USER CODE END Includes */
+../Core/Src/main.c:112:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  112 |         sprintf("ADC1: %lu, ADC2: %lu, ADC3: %lu, ADC4: %lu\n",
+      |         ^~~~~~~
+../Core/Src/main.c:112:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:113:22: warning: passing argument 2 of 'sprintf' makes pointer from integer without a cast [-Wint-conversion]
+  113 |                buffer[i], buffer[i+1], buffer[i+2], buffer[i+3]);
+      |                ~~~~~~^~~
+      |                      |
+      |                      uint32_t {aka long unsigned int}
+../Core/Src/main.c:113:22: note: expected 'const char *' but argument is of type 'uint32_t' {aka 'long unsigned int'}
+../Core/Src/main.c: In function 'avrage_8':
+../Core/Src/main.c:119:16: warning: type defaults to 'int' in declaration of 'total' [-Wimplicit-int]
+  119 |         static total = 0;
+      |                ^~~~~
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  21104	     92	   3348	  24544	   5fe0	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+18:13:23 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21104	     92	   3348	  24544	   5fe0	sp2.elf
+Finished building: default.size.stdout
+ 
+18:16:38 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'process_ADC_data':
+../Core/Src/main.c:112:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  112 |         sprintf("ADC1: %lu, ADC2: %lu, ADC3: %lu, ADC4: %lu\n",
+      |         ^~~~~~~
+../Core/Src/main.c:25:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   24 | #include <stdbool.h>
+  +++ |+#include <stdio.h>
+   25 | /* USER CODE END Includes */
+../Core/Src/main.c:112:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  112 |         sprintf("ADC1: %lu, ADC2: %lu, ADC3: %lu, ADC4: %lu\n",
+      |         ^~~~~~~
+../Core/Src/main.c:112:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c:113:22: warning: passing argument 2 of 'sprintf' makes pointer from integer without a cast [-Wint-conversion]
+  113 |                buffer[i], buffer[i+1], buffer[i+2], buffer[i+3]);
+      |                ~~~~~~^~~
+      |                      |
+      |                      uint32_t {aka long unsigned int}
+../Core/Src/main.c:113:22: note: expected 'const char *' but argument is of type 'uint32_t' {aka 'long unsigned int'}
+../Core/Src/main.c: In function 'avrage_8':
+../Core/Src/main.c:119:16: warning: type defaults to 'int' in declaration of 'total' [-Wimplicit-int]
+  119 |         static total = 0;
+      |                ^~~~~
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  21108	     92	   3348	  24548	   5fe4	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+18:16:52 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21108	     92	   3348	  24548	   5fe4	sp2.elf
+Finished building: default.size.stdout
+ 
+00:47:00 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc "../Core/Src/stm32f7xx_hal_msp.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f7xx_hal_msp.d" -MT"Core/Src/stm32f7xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f7xx_hal_msp.o"
+../Core/Src/main.c: In function 'avrage_8':
+../Core/Src/main.c:96:16: warning: type defaults to 'int' in declaration of 'total' [-Wimplicit-int]
+   96 |         static total = 0;
+      |                ^~~~~
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  18168	     12	  18356	  36536	   8eb8	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+00:47:03 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18168	     12	  18356	  36536	   8eb8	sp2.elf
+Finished building: default.size.stdout
+ 
+00:47:39 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18168	     12	  18356	  36536	   8eb8	sp2.elf
+Finished building: default.size.stdout
+ 
+00:47:51 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18168	     12	  18356	  36536	   8eb8	sp2.elf
+Finished building: default.size.stdout
+ 
+00:49:11 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'avrage_8':
+../Core/Src/main.c:96:16: warning: type defaults to 'int' in declaration of 'total' [-Wimplicit-int]
+   96 |         static total = 0;
+      |                ^~~~~
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  18168	     12	   1988	  20168	   4ec8	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+00:49:14 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18168	     12	   1988	  20168	   4ec8	sp2.elf
+Finished building: default.size.stdout
+ 
+00:50:35 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/stm32f7xx_hal_msp.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/stm32f7xx_hal_msp.d" -MT"Core/Src/stm32f7xx_hal_msp.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/stm32f7xx_hal_msp.o"
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  18168	     12	   1988	  20168	   4ec8	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+00:51:03 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'avrage_8':
+../Core/Src/main.c:96:16: warning: type defaults to 'int' in declaration of 'total' [-Wimplicit-int]
+   96 |         static total = 0;
+      |                ^~~~~
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  18152	     12	   1988	  20152	   4eb8	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+00:51:05 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18152	     12	   1988	  20152	   4eb8	sp2.elf
+Finished building: default.size.stdout
+ 
+00:51:16 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18152	     12	   1988	  20152	   4eb8	sp2.elf
+Finished building: default.size.stdout
+ 
+00:58:32 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18152	     12	   1988	  20152	   4eb8	sp2.elf
+Finished building: default.size.stdout
+ 
+01:15:03 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'avrage_8':
+../Core/Src/main.c:99:16: warning: type defaults to 'int' in declaration of 'total' [-Wimplicit-int]
+   99 |         static total = 0;
+      |                ^~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:160:11: error: 'vr1' undeclared (first use in this function)
+  160 |           vr1 = (uint16_t) last_adc_values[0];
+      |           ^~~
+../Core/Src/main.c:160:11: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+01:16:20 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'avrage_8':
+../Core/Src/main.c:100:16: warning: type defaults to 'int' in declaration of 'total' [-Wimplicit-int]
+  100 |         static total = 0;
+      |                ^~~~~
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  18204	     12	   1988	  20204	   4eec	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+01:19:22 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'avrage_8':
+../Core/Src/main.c:100:16: warning: type defaults to 'int' in declaration of 'total' [-Wimplicit-int]
+  100 |         static total = 0;
+      |                ^~~~~
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:164:11: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+  164 |           sprintf(tx_msg, "Vr1: %hu \r\t\t", vr1);
+      |           ^~~~~~~
+../Core/Src/main.c:25:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   24 | #include <stdbool.h>
+  +++ |+#include <stdio.h>
+   25 | /* USER CODE END Includes */
+../Core/Src/main.c:164:11: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+  164 |           sprintf(tx_msg, "Vr1: %hu \r\t\t", vr1);
+      |           ^~~~~~~
+../Core/Src/main.c:164:11: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  21192	     92	   2428	  23712	   5ca0	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+01:19:27 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21192	     92	   2428	  23712	   5ca0	sp2.elf
+Finished building: default.size.stdout
+ 
+01:21:08 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21192	     92	   2428	  23712	   5ca0	sp2.elf
+Finished building: default.size.stdout
+ 
+01:21:19 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21192	     92	   2428	  23712	   5ca0	sp2.elf
+Finished building: default.size.stdout
+ 
+01:23:27 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvHalfCpltCallback':
+../Core/Src/main.c:90:11: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+   90 |           sprintf(tx_msg, "Vr1: %hu \r\t\t", vr1);
+      |           ^~~~~~~
+../Core/Src/main.c:25:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   24 | #include <stdbool.h>
+  +++ |+#include <stdio.h>
+   25 | /* USER CODE END Includes */
+../Core/Src/main.c:90:11: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+   90 |           sprintf(tx_msg, "Vr1: %hu \r\t\t", vr1);
+      |           ^~~~~~~
+../Core/Src/main.c:90:11: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c: In function 'avrage_8':
+../Core/Src/main.c:107:16: warning: type defaults to 'int' in declaration of 'total' [-Wimplicit-int]
+  107 |         static total = 0;
+      |                ^~~~~
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  21160	     92	   2420	  23672	   5c78	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+01:25:13 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvHalfCpltCallback':
+../Core/Src/main.c:90:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+   90 |         sprintf(tx_msg, "Vr1: %hu \r\t\t", vr1);
+      |         ^~~~~~~
+../Core/Src/main.c:25:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   24 | #include <stdbool.h>
+  +++ |+#include <stdio.h>
+   25 | /* USER CODE END Includes */
+../Core/Src/main.c:90:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+   90 |         sprintf(tx_msg, "Vr1: %hu \r\t\t", vr1);
+      |         ^~~~~~~
+../Core/Src/main.c:90:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c: In function 'avrage_8':
+../Core/Src/main.c:108:16: warning: type defaults to 'int' in declaration of 'total' [-Wimplicit-int]
+  108 |         static total = 0;
+      |                ^~~~~
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  21168	     92	   2420	  23680	   5c80	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+01:26:11 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvHalfCpltCallback':
+../Core/Src/main.c:90:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+   90 |         sprintf(tx_msg, "Vr1: %hu %hu\t\t", vr1, vr2);
+      |         ^~~~~~~
+../Core/Src/main.c:25:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   24 | #include <stdbool.h>
+  +++ |+#include <stdio.h>
+   25 | /* USER CODE END Includes */
+../Core/Src/main.c:90:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+   90 |         sprintf(tx_msg, "Vr1: %hu %hu\t\t", vr1, vr2);
+      |         ^~~~~~~
+../Core/Src/main.c:90:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c: In function 'avrage_8':
+../Core/Src/main.c:106:16: warning: type defaults to 'int' in declaration of 'total' [-Wimplicit-int]
+  106 |         static total = 0;
+      |                ^~~~~
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  21128	     92	   2420	  23640	   5c58	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+01:26:43 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'HAL_ADC_ConvHalfCpltCallback':
+../Core/Src/main.c:90:9: warning: implicit declaration of function 'sprintf' [-Wimplicit-function-declaration]
+   90 |         sprintf(tx_msg, "Vr1: %hu \t\t%hu\r\n", vr1, vr2);
+      |         ^~~~~~~
+../Core/Src/main.c:25:1: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+   24 | #include <stdbool.h>
+  +++ |+#include <stdio.h>
+   25 | /* USER CODE END Includes */
+../Core/Src/main.c:90:9: warning: incompatible implicit declaration of built-in function 'sprintf' [-Wbuiltin-declaration-mismatch]
+   90 |         sprintf(tx_msg, "Vr1: %hu \t\t%hu\r\n", vr1, vr2);
+      |         ^~~~~~~
+../Core/Src/main.c:90:9: note: include '<stdio.h>' or provide a declaration of 'sprintf'
+../Core/Src/main.c: In function 'avrage_8':
+../Core/Src/main.c:106:16: warning: type defaults to 'int' in declaration of 'total' [-Wimplicit-int]
+  106 |         static total = 0;
+      |                ^~~~~
+arm-none-eabi-gcc -o "sp2.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: sp2.elf
+ 
+arm-none-eabi-size  sp2.elf 
+arm-none-eabi-objdump -h -S sp2.elf  > "sp2.list"
+   text	   data	    bss	    dec	    hex	filename
+  21132	     92	   2420	  23644	   5c5c	sp2.elf
+Finished building: default.size.stdout
+ 
+Finished building: sp2.list
+ 
+01:26:45 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21132	     92	   2420	  23644	   5c5c	sp2.elf
+Finished building: default.size.stdout
+ 

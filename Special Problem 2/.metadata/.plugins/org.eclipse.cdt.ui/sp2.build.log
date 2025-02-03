@@ -1,0 +1,10 @@
+01:26:45 **** Incremental Build of configuration Debug for project sp2 ****
+make -j12 all 
+arm-none-eabi-size  sp2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21132	     92	   2420	  23644	   5c5c	sp2.elf
+Finished building: default.size.stdout
+ 
+
+01:26:46 Build Finished. 0 errors, 0 warnings. (took 190ms)
+

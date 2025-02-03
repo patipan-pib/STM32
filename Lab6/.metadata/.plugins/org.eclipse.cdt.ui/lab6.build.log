@@ -1,0 +1,21 @@
+11:53:50 **** Incremental Build of configuration Debug for project lab6 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:124:11: warning: statement with no effect [-Wunused-value]
+  124 |           displayNumber;
+      |           ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "lab6.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Lab6\lab6\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab6.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lab6.elf
+ 
+arm-none-eabi-size  lab6.elf 
+arm-none-eabi-objdump -h -S lab6.elf  > "lab6.list"
+   text	   data	    bss	    dec	    hex	filename
+  16160	     12	   1860	  18032	   4670	lab6.elf
+Finished building: default.size.stdout
+ 
+Finished building: lab6.list
+ 
+
+11:53:51 Build Finished. 0 errors, 1 warnings. (took 596ms)
+
