@@ -1,0 +1,668 @@
+!SESSION 2025-01-21 17:06:32.685 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-01-21 17:06:43.073
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-01-21 17:06:43.080
+!MESSAGE Log4j2 initialized with config file E:\MAD_Lab\spp11\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-01-21 17:06:45.965
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-01-21 17:07:31.810
+!MESSAGE Indexed 'tsp1' (20 sources, 82 headers) in 2.66 sec: 5,667 declarations; 31,684 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0054%)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-01-21 18:26:59.178
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.internal.ui.actions.DsfTerminateCommand$3$1@2657027f): Status OK: unknown code=0 OK' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2025-01-21 18:41:53.195
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: E:\MAD_Lab\spp11\tsp1\Debug\tsp1.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:334)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2025-01-21 18:41:53.195
+!MESSAGE E:\MAD_Lab\spp11\tsp1\Debug\tsp1.elf not found
+!STACK 0
+java.io.FileNotFoundException: E:\MAD_Lab\spp11\tsp1\Debug\tsp1.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:334)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2025-01-21 18:41:58.687
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: E:\MAD_Lab\spp11\tsp1\Debug\tsp1.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:334)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2025-01-21 18:41:58.688
+!MESSAGE E:\MAD_Lab\spp11\tsp1\Debug\tsp1.elf not found
+!STACK 0
+java.io.FileNotFoundException: E:\MAD_Lab\spp11\tsp1\Debug\tsp1.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:334)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-01-21 18:42:26.189
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.internal.ui.actions.DsfTerminateCommand$3$1@e573be8): Status OK: unknown code=0 OK' resulted in a rejected execution exception.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-21 19:33:50.372
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 33 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-21 19:33:50.372
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-21 19:33:50.374
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 33 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-21 19:33:50.375
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-21 19:35:17.601
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 35 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-21 19:35:17.601
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-21 19:35:17.602
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 35 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-21 19:35:17.603
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-21 20:52:35.942
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 38 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-21 20:52:35.942
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-21 20:52:35.943
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 38 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-21 20:52:35.944
+!MESSAGE Existing sessions are:
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2025-01-21 21:52:44.611
+!MESSAGE Error in final launch sequence:
+
+Setup exceptions
+!STACK 1
+org.eclipse.core.runtime.CoreException: Setup exceptions
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:336)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 com.st.stm32cube.ide.mcu.debug.launch 4 0 2025-01-21 21:52:44.611
+!MESSAGE Setup exceptions
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2025-01-21 21:56:34.717
+!MESSAGE Error in final launch sequence:
+
+Setup exceptions
+!STACK 1
+org.eclipse.core.runtime.CoreException: Setup exceptions
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:336)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 com.st.stm32cube.ide.mcu.debug.launch 4 0 2025-01-21 21:56:34.717
+!MESSAGE Setup exceptions
+
+!ENTRY org.eclipse.core.jobs 4 2 2025-01-21 22:47:31.079
+!MESSAGE An internal error occurred during: "Debugger Update Job".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.dsf.service.DsfServicesTracker.getService(java.lang.Class)" because the return value of "com.st.stm32cube.ide.mcu.debug.launch.livedata.AbstractGDBLiveDataService.getServicesTracker()" is null
+	at com.st.stm32cube.ide.mcu.debug.launch.livedata.AbstractGDBLiveDataService.createVar(AbstractGDBLiveDataService.java:100)
+	at com.st.stm32cube.ide.mcu.livewatch.LiveExpressions.evaluate(LiveExpressions.java:962)
+	at com.st.stm32cube.ide.mcu.livewatch.LiveExpressions.createExpression(LiveExpressions.java:402)
+	at com.st.stm32cube.ide.mcu.livewatch.LiveExpressions.reevaluate(LiveExpressions.java:526)
+	at com.st.stm32cube.ide.mcu.livewatch.LiveExpressions.update(LiveExpressions.java:770)
+	at com.st.stm32cube.ide.mcu.livewatch.LiveExpressionsView.updateData(LiveExpressionsView.java:653)
+	at com.st.stm32cube.ide.mcu.debug.ui.views.AbstractCubeIdeDebugView$UpdateJob.run(AbstractCubeIdeDebugView.java:77)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2025-01-21 22:47:31.096
+!MESSAGE Error in final launch sequence:
+
+Failed to execute MI command:
+load E:\\MAD_Lab\\spp11\\tsp1\\Debug\\tsp1.elf 
+
+Error message from debugger back end:
+Cannot execute this command while the target is running.
+Use the "interrupt" command to stop the target
+and then try again.
+!STACK 1
+org.eclipse.core.runtime.CoreException: Failed to execute MI command:
+load E:\\MAD_Lab\\spp11\\tsp1\\Debug\\tsp1.elf 
+
+Error message from debugger back end:
+Cannot execute this command while the target is running.
+Use the "interrupt" command to stop the target
+and then try again.
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:336)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+Contains: Failed to execute MI command:
+load E:\\MAD_Lab\\spp11\\tsp1\\Debug\\tsp1.elf 
+
+Error message from debugger back end:
+Cannot execute this command while the target is running.
+Use the "interrupt" command to stop the target
+and then try again.
+java.lang.Exception: Cannot execute this command while the target is running.\nUse the "interrupt" command to stop the target\nand then try again.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SUBENTRY 1 org.eclipse.cdt.dsf 4 10004 2025-01-21 22:47:31.097
+!MESSAGE Failed to execute MI command:
+load E:\\MAD_Lab\\spp11\\tsp1\\Debug\\tsp1.elf 
+
+Error message from debugger back end:
+Cannot execute this command while the target is running.
+Use the "interrupt" command to stop the target
+and then try again.
+!SUBENTRY 2 org.eclipse.cdt.dsf.gdb 4 10004 2025-01-21 22:47:31.097
+!MESSAGE Failed to execute MI command:
+load E:\\MAD_Lab\\spp11\\tsp1\\Debug\\tsp1.elf 
+
+Error message from debugger back end:
+Cannot execute this command while the target is running.
+Use the "interrupt" command to stop the target
+and then try again.
+!STACK 0
+java.lang.Exception: Cannot execute this command while the target is running.\nUse the "interrupt" command to stop the target\nand then try again.
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.processMIOutput(AbstractMIControl.java:1024)
+	at org.eclipse.cdt.dsf.mi.service.command.AbstractMIControl$RxThread.run(AbstractMIControl.java:853)
+!SESSION 2025-01-23 21:25:32.927 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-01-23 21:26:02.772
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-01-23 21:26:02.773
+!MESSAGE Log4j2 initialized with config file E:\MAD_Lab\spp11\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-01-23 21:26:11.509
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-23 21:51:34.982
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 3 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-23 21:51:34.982
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-23 21:51:34.984
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 3 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-23 21:51:34.989
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-23 22:12:51.951
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 10 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-23 22:12:51.951
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-23 22:12:51.952
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 10 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-23 22:12:51.958
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-23 22:34:56.627
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 14 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-23 22:34:56.628
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-23 22:34:56.629
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 14 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-23 22:34:56.629
+!MESSAGE Existing sessions are:
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-01-23 23:05:43.336
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.internal.ui.actions.DsfTerminateCommand$3$1@1c5d2b90): Status OK: unknown code=0 OK' resulted in a rejected execution exception.
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-23 23:23:37.790
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 30 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-23 23:23:37.792
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-23 23:23:37.793
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 30 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-23 23:23:37.794
+!MESSAGE Existing sessions are:
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 5012 2025-01-23 23:36:26.540
+!MESSAGE Error in final launch sequence:
+
+Setup exceptions
+!STACK 1
+org.eclipse.core.runtime.CoreException: Setup exceptions
+	at org.eclipse.cdt.dsf.concurrent.Query.get(Query.java:112)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:252)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:336)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 com.st.stm32cube.ide.mcu.debug.launch 4 0 2025-01-23 23:36:26.541
+!MESSAGE Setup exceptions
+
+!ENTRY org.eclipse.cdt.dsf.gdb 4 104 2025-01-24 00:01:16.701
+!MESSAGE Program file does not exist
+!STACK 0
+java.io.FileNotFoundException: E:\MAD_Lab\spp11\tsp1\Debug\tsp1.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:334)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 org.eclipse.cdt.dsf.gdb 4 104 2025-01-24 00:01:16.701
+!MESSAGE E:\MAD_Lab\spp11\tsp1\Debug\tsp1.elf not found
+!STACK 0
+java.io.FileNotFoundException: E:\MAD_Lab\spp11\tsp1\Debug\tsp1.elf not found
+	at org.eclipse.cdt.dsf.gdb.launching.LaunchUtils.verifyProgramPath(LaunchUtils.java:130)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.checkBinaryDetails(GdbLaunchDelegate.java:330)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugSession(GdbLaunchDelegate.java:152)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launchDebugger(GdbLaunchDelegate.java:109)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunchDelegate.launch(GdbLaunchDelegate.java:97)
+	at com.st.stm32cube.ide.mcu.debug.launch.DSFDelegate.launch(DSFDelegate.java:334)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:805)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:716)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1040)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$1.run(DebugUIPlugin.java:1243)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-24 00:06:15.508
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 41 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-24 00:06:15.508
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-24 00:06:15.509
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 41 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-24 00:06:15.510
+!MESSAGE Existing sessions are:
+
+!ENTRY org.eclipse.core.jobs 4 2 2025-01-24 00:11:10.705
+!MESSAGE An internal error occurred during: "Debugger Update Job".
+!STACK 0
+java.lang.NullPointerException: Cannot invoke "org.eclipse.cdt.dsf.service.DsfServicesTracker.getService(java.lang.Class)" because the return value of "com.st.stm32cube.ide.mcu.debug.launch.livedata.AbstractGDBLiveDataService.getServicesTracker()" is null
+	at com.st.stm32cube.ide.mcu.debug.launch.livedata.AbstractGDBLiveDataService.createVar(AbstractGDBLiveDataService.java:100)
+	at com.st.stm32cube.ide.mcu.livewatch.LiveExpressions.evaluate(LiveExpressions.java:962)
+	at com.st.stm32cube.ide.mcu.livewatch.LiveExpressions.createExpression(LiveExpressions.java:402)
+	at com.st.stm32cube.ide.mcu.livewatch.LiveExpressions.reevaluate(LiveExpressions.java:526)
+	at com.st.stm32cube.ide.mcu.livewatch.LiveExpressions.update(LiveExpressions.java:770)
+	at com.st.stm32cube.ide.mcu.livewatch.LiveExpressionsView.updateData(LiveExpressionsView.java:653)
+	at com.st.stm32cube.ide.mcu.debug.ui.views.AbstractCubeIdeDebugView$UpdateJob.run(AbstractCubeIdeDebugView.java:77)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2025-01-24 12:41:25.922 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-01-24 12:42:02.871
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-01-24 12:42:02.872
+!MESSAGE Log4j2 initialized with config file E:\MAD_Lab\spp11\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-01-24 12:42:10.907
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.core.jobs 4 2 2025-01-24 13:36:15.577
+!MESSAGE An internal error occurred during: "Execute Debug Command".
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: The application has not been initialized.
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:119)
+	at org.eclipse.core.internal.runtime.InternalPlatform.assertInitialized(InternalPlatform.java:183)
+	at org.eclipse.core.internal.runtime.InternalPlatform.getAdapterManager(InternalPlatform.java:204)
+	at org.eclipse.core.runtime.Platform.getAdapterManager(Platform.java:662)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunch.getAdapter(GdbLaunch.java:454)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunch.disconnect(GdbLaunch.java:338)
+	at org.eclipse.debug.internal.core.commands.DisconnectCommand.execute(DisconnectCommand.java:35)
+	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:36)
+	at org.eclipse.debug.core.commands.AbstractDebugCommand$1.run(AbstractDebugCommand.java:215)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 2 2 2025-01-24 13:36:15.888
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob
+!SESSION 2025-01-24 15:53:20.645 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-01-24 15:53:37.569
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-01-24 15:53:37.572
+!MESSAGE Log4j2 initialized with config file E:\MAD_Lab\spp11\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-01-24 15:53:44.314
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-24 17:57:56.290
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 8 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-24 17:57:56.290
+!MESSAGE Existing sessions are:
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-24 17:57:56.292
+!MESSAGE Error - No active DSF-Session. tmpSessionId = 8 (contextManager row 121)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug 4 0 2025-01-24 17:57:56.292
+!MESSAGE Existing sessions are:
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-01-24 18:38:33.665
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.internal.ui.actions.DsfTerminateCommand$3$1@1025f6b4): Status OK: unknown code=0 OK' resulted in a rejected execution exception.
+!SESSION 2025-01-24 22:27:11.534 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-01-24 22:28:02.860
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-01-24 22:28:02.860
+!MESSAGE Log4j2 initialized with config file E:\MAD_Lab\spp11\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-01-24 22:28:09.411
+!MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2025-01-25 18:39:23.112 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-01-25 18:39:54.130
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-01-25 18:39:54.131
+!MESSAGE Log4j2 initialized with config file E:\MAD_Lab\spp11\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-01-25 18:40:00.331
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2025-01-25 18:40:29.133
+!MESSAGE Unable to connect to repository https://sw-center.st.com/stm32cubeide/openstlinux/updatesite1/compositeContent.xml
+!STACK 0
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1028)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56)
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:468)
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:134)
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:94)
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Exchange.java:386)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:570)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:423)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:415)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:137)
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:145)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:842)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:865)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+	... 21 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2025-01-25 18:40:29.149
+!MESSAGE Unable to connect to repository https://sw-center.st.com/stm32cubeide/updatesite1/compositeContent.xml
+!STACK 0
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1028)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56)
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:468)
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:134)
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:94)
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Exchange.java:386)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:570)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:423)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:415)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:137)
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:145)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:842)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:865)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+	... 21 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2025-01-25 18:40:29.166
+!MESSAGE Unable to connect to repository https://download.eclipse.org/tools/cdt/releases/latest/compositeContent.xml
+!STACK 0
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1028)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56)
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:468)
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:134)
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:94)
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Exchange.java:386)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:570)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:423)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:415)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:137)
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:145)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:842)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:865)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+	... 21 more
+
+!ENTRY org.eclipse.equinox.p2.transport.ecf 4 1002 2025-01-25 18:40:29.181
+!MESSAGE Unable to connect to repository https://download.eclipse.org/releases/2023-12/compositeContent.xml
+!STACK 0
+java.net.ConnectException
+	at java.net.http/jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1028)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:227)
+	at java.net.http/jdk.internal.net.http.AsyncSSLConnection.connectAsync(AsyncSSLConnection.java:56)
+	at java.net.http/jdk.internal.net.http.Http2Connection.createAsync(Http2Connection.java:468)
+	at java.net.http/jdk.internal.net.http.Http2ClientImpl.getConnectionFor(Http2ClientImpl.java:134)
+	at java.net.http/jdk.internal.net.http.ExchangeImpl.get(ExchangeImpl.java:94)
+	at java.net.http/jdk.internal.net.http.Exchange.establishExchange(Exchange.java:386)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl0(Exchange.java:570)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsyncImpl(Exchange.java:423)
+	at java.net.http/jdk.internal.net.http.Exchange.responseAsync(Exchange.java:415)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:413)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsyncImpl$7(MultiExchange.java:454)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandle(CompletableFuture.java:934)
+	at java.base/java.util.concurrent.CompletableFuture.uniHandleStage(CompletableFuture.java:950)
+	at java.base/java.util.concurrent.CompletableFuture.handle(CompletableFuture.java:2372)
+	at java.net.http/jdk.internal.net.http.MultiExchange.responseAsyncImpl(MultiExchange.java:444)
+	at java.net.http/jdk.internal.net.http.MultiExchange.lambda$responseAsync0$2(MultiExchange.java:346)
+	at java.base/java.util.concurrent.CompletableFuture$UniCompose.tryFire(CompletableFuture.java:1150)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1773)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.nio.channels.UnresolvedAddressException
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:137)
+	at java.base/sun.nio.ch.Net.checkAddress(Net.java:145)
+	at java.base/sun.nio.ch.SocketChannelImpl.checkRemote(SocketChannelImpl.java:842)
+	at java.base/sun.nio.ch.SocketChannelImpl.connect(SocketChannelImpl.java:865)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.lambda$connectAsync$1(PlainHttpConnection.java:210)
+	at java.base/java.security.AccessController.doPrivileged(AccessController.java:571)
+	at java.net.http/jdk.internal.net.http.PlainHttpConnection.connectAsync(PlainHttpConnection.java:212)
+	... 21 more
+!SESSION 2025-01-27 13:24:45.666 -----------------------------------------------
+eclipse.buildId=Version 1.17.0
+java.version=21.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2025-01-27 13:26:50.966
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2025-01-27 13:26:50.967
+!MESSAGE Log4j2 initialized with config file E:\MAD_Lab\spp11\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2025-01-27 13:27:00.999
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY unknown 8 1 2025-01-27 14:09:07.608
+!MESSAGE 
+
+!ENTRY unknown 8 1 2025-01-27 14:09:07.644
+!MESSAGE 
+
+!ENTRY org.eclipse.cdt.dsf 4 10005 2025-01-27 14:09:11.933
+!MESSAGE Request for monitor: 'RequestMonitor (org.eclipse.cdt.dsf.gdb.internal.ui.actions.DsfTerminateCommand$3$1@34600d67): Status OK: unknown code=0 OK' resulted in a rejected execution exception.
+
+!ENTRY org.eclipse.cdt.core 1 0 2025-01-27 14:37:10.877
+!MESSAGE Indexed 'Special01' (26 sources, 117 headers) in 4.83 sec: 11,504 declarations; 55,476 references; 2 unresolved inclusions; 42 syntax errors; 147 unresolved names (0.22%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-01-27 14:40:00.336
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2025-01-27 14:41:00.669
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 216000000; div: 108
+
+!ENTRY org.eclipse.core.jobs 4 2 2025-01-27 15:04:21.162
+!MESSAGE An internal error occurred during: "Execute Debug Command".
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: assertion failed: The application has not been initialized.
+	at org.eclipse.core.runtime.Assert.isTrue(Assert.java:119)
+	at org.eclipse.core.internal.runtime.InternalPlatform.assertInitialized(InternalPlatform.java:183)
+	at org.eclipse.core.internal.runtime.InternalPlatform.getAdapterManager(InternalPlatform.java:204)
+	at org.eclipse.core.runtime.Platform.getAdapterManager(Platform.java:662)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunch.getAdapter(GdbLaunch.java:454)
+	at org.eclipse.cdt.dsf.gdb.launching.GdbLaunch.disconnect(GdbLaunch.java:338)
+	at org.eclipse.debug.internal.core.commands.DisconnectCommand.execute(DisconnectCommand.java:35)
+	at org.eclipse.debug.internal.core.commands.ForEachCommand.doExecute(ForEachCommand.java:36)
+	at org.eclipse.debug.core.commands.AbstractDebugCommand$1.run(AbstractDebugCommand.java:215)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.core.jobs 2 2 2025-01-27 15:04:21.512
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.service.GDBBackend$MonitorJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2025-01-27 15:04:21.513
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob

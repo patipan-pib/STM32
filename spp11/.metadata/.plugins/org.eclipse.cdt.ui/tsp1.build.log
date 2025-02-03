@@ -1,0 +1,10 @@
+14:24:15 **** Incremental Build of configuration Debug for project tsp1 ****
+make -j12 all 
+arm-none-eabi-size  tsp1.elf 
+   text	   data	    bss	    dec	    hex	filename
+  20068	    100	   2836	  23004	   59dc	tsp1.elf
+Finished building: default.size.stdout
+ 
+
+14:24:15 Build Finished. 0 errors, 0 warnings. (took 453ms)
+
