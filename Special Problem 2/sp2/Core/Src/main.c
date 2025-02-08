@@ -22,24 +22,23 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include <stdbool.h>
+#include "string.h"
+#include "stdio.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
 /* USER CODE BEGIN PTD */
 //uint32_t adcValue1 = 0, adcValue2 = 0, adcValue3 = 0, adcValue4 = 0;
 uint32_t adcValue[4];
-char tx_msg[100];
+char transmit[200];
 uint32_t avr_8;
 
 uint8_t convCompleted = 0;
 uint16_t vr1 = 0;
 uint16_t vr2 = 0;
-#define ADC_CHANNELS 4
-#define ADC_BUFFER_SIZE 4096
-#define SAMPLES_PER_CHANNEL (ADC_BUFFER_SIZE / ADC_CHANNELS)
+uint8_t State = 0;
 
-uint32_t adc_buffer[ADC_BUFFER_SIZE];
-uint32_t last_adc_values[ADC_CHANNELS] = {0};
+uint32_t val_adc[8];
 bool data_changed = false;
 /* USER CODE END PTD */
 
@@ -79,24 +78,29 @@ static void MX_USART3_UART_Init(void);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 void ADC_Init(void) {
-    HAL_ADC_Start_DMA(&hadc1, (uint32_t*)last_adc_values, 4);
+    HAL_ADC_Start_DMA(&hadc1, (uint32_t*)val_adc, 8);
 }
 void HAL_ADC_ConvHalfCpltCallback(ADC_HandleTypeDef *hadc) {
     if (hadc->Instance == ADC1) {
-//    	convCompleted = 1;
-    	vr1 = (uint16_t) last_adc_values[0];
-    	vr2 = (uint16_t) last_adc_values[2];
+    	State = 1;
 
-    	sprintf(tx_msg, "Vr1: %hu \t\t%hu\r\n", vr1, vr2);
-    	HAL_UART_Transmit(&huart3, (uint8_t*)tx_msg, sizeof(tx_msg), HAL_MAX_DELAY);
+
+//    	sprintf(tx_msg, "Vr1: %hu \t\t%hu\r\n", vr1, vr2);
+//    	sprintf(tx_msg,"Ch1= %d Ch2= %d Ch3= %d Ch4= %d Ch5= %d Ch6= %d Ch7= %d Ch8= %d LED = ON\r\n",last_adc_values[0],last_adc_values[1],last_adc_values[2],last_adc_values[3],last_adc_values[4],last_adc_values[5],vallast_adc_values_adc[6],last_adc_values[7]);
+//    	HAL_UART_Transmit(&huart3, (uint8_t*)tx_msg, sizeof(tx_msg), HAL_MAX_DELAY);
         HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, GPIO_PIN_RESET);
-        HAL_Delay(500);
+//        HAL_Delay(500);
     }
 }
 
 void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef *hadc) {
     if (hadc->Instance == ADC1) {
+    	State = 0;
+//    	sprintf(tx_msg,"Ch1= %d Ch2= %d Ch3= %d Ch4= %d Ch5= %d Ch6= %d Ch7= %d Ch8= %d LED = OFF\r\n",last_adc_values[0],last_adc_values[1],last_adc_values[2],last_adc_values[3],last_adc_values[4],last_adc_values[5],vallast_adc_values_adc[6],last_adc_values[7]);
+//		HAL_UART_Transmit(&huart3, (uint8_t*)tx_msg, sizeof(tx_msg), HAL_MAX_DELAY);
+//		HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, GPIO_PIN_RESET);
         HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, GPIO_PIN_SET);
+//        HAL_Delay(500);
     }
 }
 
@@ -163,6 +167,22 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+	  if (State == 1){
+	  		  memset(transmit,0,sizeof(transmit));
+	  		  sprintf(transmit,"Ch1= %d Ch2= %d Ch3= %d Ch4= %d Ch5= %d Ch6= %d Ch7= %d Ch8= %d LED = ON\r\n",val_adc[0],val_adc[1],val_adc[2],val_adc[3],val_adc[4],val_adc[5],val_adc[6],val_adc[7]);
+	  		  while(__HAL_UART_GET_FLAG(&huart3,UART_FLAG_TC)==RESET){}
+	  		  HAL_UART_Transmit(&huart3, (uint32_t*)&transmit, strlen(transmit), 200);
+//	  		  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, 1);
+	  		  HAL_Delay(500);
+	  	}
+	  	else{
+	  		  memset(transmit,0,sizeof(transmit));
+	  		  sprintf(transmit,"Ch1= %d Ch2= %d Ch3= %d Ch4= %d Ch5= %d Ch6= %d Ch7= %d Ch8= %d LED = OFF\r\n",val_adc[0],val_adc[1],val_adc[2],val_adc[3],val_adc[4],val_adc[5],val_adc[6],val_adc[7]);
+	  		  while(__HAL_UART_GET_FLAG(&huart3,UART_FLAG_TC)==RESET){}
+	  		  HAL_UART_Transmit(&huart3, (uint32_t*)&transmit, strlen(transmit), 200);
+//	  		  HAL_GPIO_WritePin(GPIOB, GPIO_PIN_7, 0);
+	  		  HAL_Delay(500);
+	  	  }
 //	  while(!convCompleted);
 //	  vr1 = (uint16_t) last_adc_values[0];
 //	  vr2 = (uint16_t) last_adc_values[2];
@@ -280,7 +300,7 @@ static void MX_ADC1_Init(void)
   hadc1.Init.ExternalTrigConvEdge = ADC_EXTERNALTRIGCONVEDGE_NONE;
   hadc1.Init.ExternalTrigConv = ADC_SOFTWARE_START;
   hadc1.Init.DataAlign = ADC_DATAALIGN_RIGHT;
-  hadc1.Init.NbrOfConversion = 4;
+  hadc1.Init.NbrOfConversion = 8;
   hadc1.Init.DMAContinuousRequests = ENABLE;
   hadc1.Init.EOCSelection = ADC_EOC_SINGLE_CONV;
   if (HAL_ADC_Init(&hadc1) != HAL_OK)
@@ -290,7 +310,7 @@ static void MX_ADC1_Init(void)
 
   /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
   */
-  sConfig.Channel = ADC_CHANNEL_10;
+  sConfig.Channel = ADC_CHANNEL_0;
   sConfig.Rank = ADC_REGULAR_RANK_1;
   sConfig.SamplingTime = ADC_SAMPLETIME_15CYCLES;
   if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
@@ -308,7 +328,6 @@ static void MX_ADC1_Init(void)
 
   /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
   */
-  sConfig.Channel = ADC_CHANNEL_13;
   sConfig.Rank = ADC_REGULAR_RANK_3;
   if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
   {
@@ -318,6 +337,40 @@ static void MX_ADC1_Init(void)
   /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
   */
   sConfig.Rank = ADC_REGULAR_RANK_4;
+  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
+  */
+  sConfig.Channel = ADC_CHANNEL_10;
+  sConfig.Rank = ADC_REGULAR_RANK_5;
+  sConfig.SamplingTime = ADC_SAMPLETIME_3CYCLES;
+  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
+  */
+  sConfig.Rank = ADC_REGULAR_RANK_6;
+  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
+  */
+  sConfig.Rank = ADC_REGULAR_RANK_7;
+  if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Configure for the selected ADC regular channel its corresponding rank in the sequencer and its sample time.
+  */
+  sConfig.Rank = ADC_REGULAR_RANK_8;
   if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
   {
     Error_Handler();
@@ -396,6 +449,7 @@ static void MX_GPIO_Init(void)
 
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOC_CLK_ENABLE();
+  __HAL_RCC_GPIOA_CLK_ENABLE();
   __HAL_RCC_GPIOD_CLK_ENABLE();
   __HAL_RCC_GPIOB_CLK_ENABLE();
 

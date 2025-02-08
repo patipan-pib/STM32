@@ -3,3 +3,5 @@ adc_buffer
 last_adc_values
 samples
 hadc1.Init.NbrOfConversion
+val_adc
+State

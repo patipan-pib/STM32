@@ -52,6 +52,9 @@ default.size.stdout \
 OBJDUMP_LIST += \
 sp2.list \
 
+OBJCOPY_BIN += \
+sp2.bin \
+
 
 # All Target
 all: main-build
@@ -60,8 +63,8 @@ all: main-build
 main-build: sp2.elf secondary-outputs
 
 # Tool invocations
-sp2.elf sp2.map: $(OBJS) $(USER_OBJS) D:\STM32\Special\ Problem\ 2\sp2\STM32F767ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "sp2.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"D:\STM32\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+sp2.elf sp2.map: $(OBJS) $(USER_OBJS) E:\MAD_Lab\Special\ Problem\ 2\sp2\STM32F767ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "sp2.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"E:\MAD_Lab\Special Problem 2\sp2\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="sp2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -75,12 +78,17 @@ sp2.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
+sp2.bin: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objcopy  -O binary $(EXECUTABLES) "sp2.bin"
+	@echo 'Finished building: $@'
+	@echo ' '
+
 # Other Targets
 clean:
-	-$(RM) default.size.stdout sp2.elf sp2.list sp2.map
+	-$(RM) default.size.stdout sp2.bin sp2.elf sp2.list sp2.map
 	-@echo ' '
 
-secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST)
+secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST) $(OBJCOPY_BIN)
 
 fail-specified-linker-script-missing:
 	@echo 'Error: Cannot find the specified linker script. Check the linker settings in the build configuration.'
