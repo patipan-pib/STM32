@@ -1,0 +1,36 @@
+13:05:59 **** Incremental Build of configuration Debug for project lab7 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F767xx -c -I../Core/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Device/ST/STM32F7xx/Include -IC:/Users/Admin/STM32Cube/Repository/STM32Cube_FW_F7_V1.17.2/Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:123:42: warning: unknown conversion type character ',' in format [-Wformat=]
+  123 |                   "Button (R, G, B) -> 0%, 20%, 40%, 60%, 80%, 100%\r\n"
+      |                                          ^
+../Core/Src/main.c:123:47: warning: unknown conversion type character ',' in format [-Wformat=]
+  123 |                   "Button (R, G, B) -> 0%, 20%, 40%, 60%, 80%, 100%\r\n"
+      |                                               ^
+../Core/Src/main.c:123:52: warning: unknown conversion type character ',' in format [-Wformat=]
+  123 |                   "Button (R, G, B) -> 0%, 20%, 40%, 60%, 80%, 100%\r\n"
+      |                                                    ^
+../Core/Src/main.c:123:57: warning: unknown conversion type character ',' in format [-Wformat=]
+  123 |                   "Button (R, G, B) -> 0%, 20%, 40%, 60%, 80%, 100%\r\n"
+      |                                                         ^
+../Core/Src/main.c:123:62: warning: unknown conversion type character ',' in format [-Wformat=]
+  123 |                   "Button (R, G, B) -> 0%, 20%, 40%, 60%, 80%, 100%\r\n"
+      |                                                              ^
+../Core/Src/main.c:123:68: warning: unknown conversion type character '\x0d' in format [-Wformat=]
+  123 |                   "Button (R, G, B) -> 0%, 20%, 40%, 60%, 80%, 100%\r\n"
+      |                                                                    ^~
+arm-none-eabi-gcc -o "lab7.elf" @"objects.list"   -mcpu=cortex-m7 -T"D:\STM32\Lab7\lab7\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: lab7.elf
+ 
+arm-none-eabi-size  lab7.elf 
+arm-none-eabi-objdump -h -S lab7.elf  > "lab7.list"
+   text	   data	    bss	    dec	    hex	filename
+  19536	     92	   2228	  21856	   5560	lab7.elf
+Finished building: default.size.stdout
+ 
+Finished building: lab7.list
+ 
+
+13:05:59 Build Finished. 0 errors, 6 warnings. (took 536ms)
+
