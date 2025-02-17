@@ -27,25 +27,25 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
  11 .ARM.attributes 0000002e  00000000  00000000  0000605c  2**0
                   CONTENTS, READONLY
- 12 .debug_info   0000e4fa  00000000  00000000  0000608a  2**0
+ 12 .debug_info   0000e52c  00000000  00000000  0000608a  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 13 .debug_abbrev 00001d28  00000000  00000000  00014584  2**0
+ 13 .debug_abbrev 00001d10  00000000  00000000  000145b6  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 14 .debug_aranges 00000ce8  00000000  00000000  000162b0  2**3
+ 14 .debug_aranges 00000ce8  00000000  00000000  000162c8  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .debug_rnglists 00000a1e  00000000  00000000  00016f98  2**0
+ 15 .debug_rnglists 00000a1e  00000000  00000000  00016fb0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_macro  00027c18  00000000  00000000  000179b6  2**0
+ 16 .debug_macro  00027c18  00000000  00000000  000179ce  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   00010e90  00000000  00000000  0003f5ce  2**0
+ 17 .debug_line   00010e90  00000000  00000000  0003f5e6  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    000fb71f  00000000  00000000  0005045e  2**0
+ 18 .debug_str    000fb731  00000000  00000000  00050476  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000043  00000000  00000000  0014bb7d  2**0
+ 19 .comment      00000043  00000000  00000000  0014bba7  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00003b74  00000000  00000000  0014bbc0  2**2
+ 20 .debug_frame  00003b74  00000000  00000000  0014bbec  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_line_str 00000067  00000000  00000000  0014f734  2**0
+ 21 .debug_line_str 00000067  00000000  00000000  0014f760  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -493,9 +493,9 @@ int main(void)
  8000634:	4954      	ldr	r1, [pc, #336]	@ (8000788 <main+0x1b8>)
  8000636:	4855      	ldr	r0, [pc, #340]	@ (800078c <main+0x1bc>)
  8000638:	f003 f87e 	bl	8003738 <HAL_UART_Transmit>
-  while (1)
-  {
+//	  pwm_r = (GPIOB->IDR & GPIO_PIN_10) >> 10;
     /* USER CODE END WHILE */
+
 
     /* USER CODE BEGIN 3 */
 	  if(HAL_UART_Receive(&huart3, &rxData, 1, 100) == HAL_OK)
@@ -556,6 +556,7 @@ int main(void)
  800069e:	ee17 2a90 	vmov	r2, s15
  80006a2:	635a      	str	r2, [r3, #52]	@ 0x34
  80006a4:	e04a      	b.n	800073c <main+0x16c>
+
 	       } else if (rxData == 'g') {
  80006a6:	4b3a      	ldr	r3, [pc, #232]	@ (8000790 <main+0x1c0>)
  80006a8:	781b      	ldrb	r3, [r3, #0]
@@ -594,6 +595,7 @@ int main(void)
  80006ea:	ee17 2a90 	vmov	r2, s15
  80006ee:	639a      	str	r2, [r3, #56]	@ 0x38
  80006f0:	e024      	b.n	800073c <main+0x16c>
+
 	       }else if (rxData == 'b') {
  80006f2:	4b27      	ldr	r3, [pc, #156]	@ (8000790 <main+0x1c0>)
  80006f4:	781b      	ldrb	r3, [r3, #0]
@@ -631,6 +633,7 @@ int main(void)
  8000732:	eefc 7ae7 	vcvt.u32.f32	s15, s15
  8000736:	ee17 2a90 	vmov	r2, s15
  800073a:	63da      	str	r2, [r3, #60]	@ 0x3c
+
 	       }
 	       memset(tx_message, 0, sizeof(tx_message));
  800073c:	2264      	movs	r2, #100	@ 0x64

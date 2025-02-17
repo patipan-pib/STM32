@@ -30,7 +30,9 @@
 //GPIO_InitTypeDef GPIO_InitStruct = {0};
 uint8_t rxData;
 int redDutyCycle = 0;
-
+float pwm_r;
+float pwm_g;
+float pwm_b;
 char tx_message[100];
 int status=0;
 int R_DutyCycle = 0;
@@ -132,7 +134,13 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
+//	  htim2.Instance -> CCR3 = (1000 - 1 )* dutyCycle;
+//	  HAL_TIM_PWM_Start(&htim2, TIM_CHANNEL_3);
+//	  HAL_Delay(100);
+//	  HAL_TIM_PWM_Stop(&htim2, TIM_CHANNEL_3);
+//	  pwm_r = (GPIOB->IDR & GPIO_PIN_10) >> 10;
     /* USER CODE END WHILE */
+
 
     /* USER CODE BEGIN 3 */
 	  if(HAL_UART_Receive(&huart3, &rxData, 1, 100) == HAL_OK)
@@ -150,6 +158,7 @@ int main(void)
 
 	         // อัพเดตค่า PWM สำหรับ TIM2_CH1 (Red LED)
 	         __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_1, (1000 - 1 )* ((float)R_DutyCycle/100));
+
 	       } else if (rxData == 'g') {
 	    	   G_DutyCycle += 20;
 			 if (G_DutyCycle > 100){
@@ -158,6 +167,7 @@ int main(void)
 
 			 // อัพเดตค่า PWM สำหรับ TIM2_CH1 (Red LED)
 			 __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_2, (1000 - 1 )* ((float)G_DutyCycle/100));
+
 	       }else if (rxData == 'b') {
 	    	   B_DutyCycle += 20;
 			 if (B_DutyCycle > 100){
@@ -166,6 +176,7 @@ int main(void)
 
 			 // อัพเดตค่า PWM สำหรับ TIM2_CH1 (Red LED)
 			 __HAL_TIM_SET_COMPARE(&htim2, TIM_CHANNEL_3, (1000 - 1 )* ((float)B_DutyCycle/100));
+
 	       }
 	       memset(tx_message, 0, sizeof(tx_message));
 		  snprintf(tx_message, sizeof(tx_message), "\r\n(R %u, G %u, B %u)Button => ", R_DutyCycle, G_DutyCycle, B_DutyCycle);
