@@ -60,8 +60,8 @@ all: main-build
 main-build: lab7.elf secondary-outputs
 
 # Tool invocations
-lab7.elf lab7.map: $(OBJS) $(USER_OBJS) D:\STM32\Lab7\lab7\STM32F767ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "lab7.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"D:\STM32\Lab7\lab7\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+lab7.elf lab7.map: $(OBJS) $(USER_OBJS) C:\Users\ddpat\OneDrive\Documents\Github\STM32\Lab7\lab7\STM32F767ZITX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "lab7.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"C:\Users\ddpat\OneDrive\Documents\Github\STM32\Lab7\lab7\STM32F767ZITX_FLASH.ld" --specs=nosys.specs -Wl,-Map="lab7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
