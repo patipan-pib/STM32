@@ -396,12 +396,13 @@ int main(void)
 	                     // วาดรูปภาพหรือเนื้อหาของหน้าจอที่สอง
 	                     ILI9341_Draw_Image_Scaled(10, 40,90,128, 320, 240, snow_tiger);
 //	                     ILI9341_Draw_Image((const char*)snow_tiger, SCREEN_HORIZONTAL_1);
+	                     uint16_t mixed_color = ILI9341_Color565(red_percent * 2.55, green_percent * 2.55, blue_percent * 2.55);
 
 	                     // แสดงข้อมูล
-	                     ILI9341_Draw_Text("Group No.1", 120, 40, MAGENTA, 2, WHITE);
-	                     ILI9341_Draw_Text("Jirawat", 120, 80, MAGENTA, 2, WHITE);
-	                     ILI9341_Draw_Text("Patipan", 120, 110, MAGENTA, 2, WHITE);
-	                     ILI9341_Draw_Text("66015116", 120, 140, MAGENTA, 2, WHITE);
+	                     ILI9341_Draw_Text("Group No.1", 120, 40, mixed_color, 2, WHITE);
+	                     ILI9341_Draw_Text("Jirawat", 120, 80, mixed_color, 2, WHITE);
+	                     ILI9341_Draw_Text("Patipan", 120, 110, mixed_color, 2, WHITE);
+	                     ILI9341_Draw_Text("66015116", 120, 140, mixed_color, 2, WHITE);
 
 	                     HAL_Delay(200);
 	                 }
